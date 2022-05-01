@@ -12,8 +12,8 @@ export default function Card(props){
 
     return (
         <div className="card">
+            <img className="card-image" src={props.data.coverImg}></img>
             {badgeText && <div className='card-badge'>{badgeText}</div>}
-            <img src={props.data.coverImg}></img>
             <div className="card-info">
               <p><span id="star"></span>{props.data.stats.rating}<span className='lighten-opacity'> ({props.data.stats.reviewCount})•{props.data.location}</span></p>
               <p>{props.data.title}</p>

@@ -61,7 +61,8 @@ figure img {
   padding: 2%;
 }
 
-.card img {
+.card-image {
+  position: relative;
   width: 20vw;
   height: 30vw;
   border-radius: 10px;
@@ -77,11 +78,9 @@ figure img {
 
 .card-badge {
     position: absolute;
-    left: 10px;
-    top: 10px;
-    left: 45px;
-    top: 35px;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.624);
     border-radius: 5px;
-    padding: 4px;
+    padding: 2%;
+    margin: 1%;
+    font-size: 5%;
 }
